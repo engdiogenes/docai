@@ -5,7 +5,7 @@ import numpy as np
 import os
 
 # Configuração da API do OpenAI
-openai.api_key = os.getenv('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')  # Use variáveis de ambiente para a chave API
+openai.api_key = os.getenv('chave aqui')  # Use variáveis de ambiente para a chave API
 
 # Função para extrair texto de arquivos PDF
 def extract_text_from_pdf(file_path):
